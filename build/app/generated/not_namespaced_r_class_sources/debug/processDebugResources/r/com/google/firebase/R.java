@@ -141,8 +141,8 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int common_google_play_services_unknown_issue = 0x7f0b0046;
-        public static final int status_bar_notification_info_overflow = 0x7f0b0058;
+        public static final int common_google_play_services_unknown_issue = 0x7f0b0047;
+        public static final int status_bar_notification_info_overflow = 0x7f0b005b;
     }
     public static final class style {
         private style() {}

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 04 12:57:11 ICT 2019
+#Fri Apr 05 11:39:37 ICT 2019
 17.baseType=DIRECTORY
 4.path=lib/x86_64/libflutter.so
 25.base=/Users/vinhpham/Documents/GitHub/flutter_firebase/build/app/intermediates/transforms/dexMerger/debug/10

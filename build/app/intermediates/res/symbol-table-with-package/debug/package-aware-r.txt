@@ -995,6 +995,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string app_name
 string com_facebook_device_auth_instructions
 string com_facebook_image_download_unknown_error
 string com_facebook_internet_permission_error_message
@@ -1036,6 +1037,8 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string facebook_app_id
+string fb_login_protocol_scheme
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key

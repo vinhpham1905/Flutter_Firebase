@@ -5,6 +5,7 @@
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 pod 'FBSDKCoreKit', '4.39.1'
 pod 'FBSDKLoginKit', '4.39.1'
+
 project 'Runner', {
   'Debug' => :debug,
   'Profile' => :release,

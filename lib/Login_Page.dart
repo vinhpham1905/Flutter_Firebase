@@ -34,7 +34,8 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ));
     }).whenComplete(() {
-Navigator.of(context).push(MaterialPageRoute(builder: (context)=>UserDetails()));
+      Navigator.of(context)
+          .push(MaterialPageRoute(builder: (context) => UserDetails()));
     });
   }
 
@@ -68,12 +69,15 @@ Navigator.of(context).push(MaterialPageRoute(builder: (context)=>UserDetails()))
                   onSaved: (value) => this._password = value,
                   decoration: InputDecoration(hintText: 'Password'),
                 ),
-                RaisedButton(child:Text('Login'),onPressed: (){
-                  if(_formKey.currentState.validate()){
-                    _formKey.currentState.save();
-                   _signIn(context, _email, _password);
-                  }
-                })
+                RaisedButton(
+                  color: Colors.blue,
+                    child: Text('Login'),
+                    onPressed: () {
+                      if (_formKey.currentState.validate()) {
+                        _formKey.currentState.save();
+                        _signIn(context, _email, _password);
+                      }
+                    })
               ],
             ),
           )),

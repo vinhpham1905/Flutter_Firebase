@@ -54,6 +54,7 @@ class _SignUpPageState extends State<SignUpPage> {
     return ref.setData({
       'name': _name,
       'email': _email,
+      'photo':'',
     });
   }
   @override
