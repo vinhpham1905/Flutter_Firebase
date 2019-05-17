@@ -8,7 +8,7 @@ import 'package:flutter_firebase/User.dart';
 
 class FBLogin {
   static final FacebookLogin facebookSignIn = new FacebookLogin();
- // final Firestore firestore = Firestore.instance;
+
 
   static void fbSignIn(BuildContext context) async{
     facebookSignIn
@@ -25,7 +25,7 @@ class FBLogin {
           }).catchError((e) {
             print(e);
           }).whenComplete(() {
-            getUserDoc();
+            pushUserDataToFireBase();
           }).whenComplete((){
             Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context)=>UserDetails()));
           });
@@ -42,7 +42,7 @@ class FBLogin {
     });
   }
 
-  static Future<void> getUserDoc() async {
+  static Future<void> pushUserDataToFireBase() async {
     final FirebaseAuth _auth = FirebaseAuth.instance;
     final Firestore _firestore = Firestore.instance;
 

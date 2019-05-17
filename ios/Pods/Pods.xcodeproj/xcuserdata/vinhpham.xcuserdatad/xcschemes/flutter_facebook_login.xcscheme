@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62E8AEFABB2AD9868940F8908DDB824D"
+               BlueprintIdentifier = "8579BC32D417B4E26DACDA9405CDE22E"
+               BuildableName = "libflutter_facebook_login.a"
                BlueprintName = "flutter_facebook_login"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libflutter_facebook_login.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
